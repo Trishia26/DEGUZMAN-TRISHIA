@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viwport" content="width=device-width, initial-scale=1.0">
+        <title>BUSINESS WEBSITE</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <style>
+          * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #AED6F1;
+    font-family: 'Arial', sans-serif;
+    background-image: url(https://img.freepik.com/premium-vector/white-background-with-blue-technology-circuit_583398-369.jpg?w=2000)
+  }
+
+  header {
+    position: fixed;
+    top: 10px;
+    display: flex;
+    align-items: center;
+    background-color:#AED6F1;
+    font-size: 15px
+  }
+  @media (max-width: 600px) {
+    header {
+      flex-wrap: wrap;
+    }
+  }
+  .logo {
+    width: 500px;
+  }
+  @media (max-width: 650px) {
+    .logo {
+      margin-top: 100px;
+      width: 100%;
+      position: fixed;
+    }
+  }
+  .logo > img {
+    height: 60px;
+    max-width: 400px;
+    display: flex;
+    justify-content: right;
+    margin-left:-30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+nav {
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  nav {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    padding: 0 30px;
+  }
+  nav li {
+    padding-bottom: 5px;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin-left:550px;
+}
+#navbar {
+  font-weight: 180;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-transform: uppercase;
+  border-color: #000305; 
+  border-bottom: 3px solid;
+  background-color: #63BCEC;
+}
+
+#navbar a {
+  display: block;
+  padding: 1rem 0.5rem;
+  font-size: 16px;
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+.nav-link{
+    margin-top: -60px;
+    margin-bottom: 2px;
+}
+.flex-row {
+    display: flex;
+  }
+  #centre{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #000000;
+    margin-top: 130PX;
+    margin-left: 500px;
+    font-size: 70px;
+}
+.checked {
+  color: orange;
+}
+
+
+#Products {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  margin: 10px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  margin-left: 50px;
+  background-color: white;
+}
+.product > #speaker{
+  font-size: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.product > #level {
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.product > h2 {
+  margin-top: 8px;
+  margin-bottom: 13px;
+  font-size: 20px;
+}
+
+.product > #review{
+  flex-direction: center;
+}
+
+img {
+  border: 0;
+  border-radius: 4px;
+  padding: 5px;
+  width: 400px;
+  height: 250px;
+
+}
+
+
+.product > #laptop{
+ height: 230px;
+ width: 300px;
+}
+
+#product-next{
+  #Products {
+    margin-top: 120px;
+    display: flex;
+    flex-direction: row;
+  }
+}
+.product > #watch{
+  height: 200px;
+  width: 250px;
+}
+.product > #charger{
+  height: 200px;
+  width: 250px;
+}
+.product > #bank{
+  height: 180px;
+  width: 250px;
+}
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+              <div class="container">
+                <div class="logo">
+                    <img id="header-img" src="https://scontent.fcrk2-2.fna.fbcdn.net/v/t39.30808-6/354021136_2283449745187539_4060758287628950896_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFymNTbmzVYWImMu8Lc0imeTnHw6rHSit1OcfDqsdKK3Wp6U8WhgjfbM0XtBSBgUqntLByIHR66kVHdu2XJPdjA&_nc_ohc=HL7Gal1ijkkAX93VCdE&_nc_zt=23&_nc_ht=scontent.fcrk2-2.fna&oh=00_AfBs47tUE0o3Q5mhkDergSSP5x4vugock1irx-ZFtQNefA&oe=648F3CF2"
+                     alt="logo">
+                </div>
+                    <ul class="flex-row">
+                        <li><a class="nav-link" href="website.html">Home</a></li>
+                        <li><a class="nav-link" href="About-Us.html">About Us</a></li>
+                        <li><a class="nav-link" href="product.html">Products & Services</a></li>
+                    </ul>  
+              </div>
+            </nav>
+            
+          </header>
+
+          <section>
+            <h2 id="centre"><strong>PRODUCTS</strong></h2>
+           </section>
+
+         <section id="Products">
+          <section>
+          <div class="product">
+            <div id="level">Pixel 6 Pro 5G</div>
+            <img src="https://scontent.fmnl9-4.fna.fbcdn.net/v/t39.30808-6/355698412_2288439994688514_7949135259012897165_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeFU_Za7avjq58BJWrsLqWvk7aj7EZzTWcvtqPsRnNNZy1DXuCI40V80X1sTW5umOYzlbx6O1Yp4mZ55aAZoPqm_&_nc_ohc=0mdQR8VoPl0AX_WmDce&_nc_zt=23&_nc_ht=scontent.fmnl9-4.fna&oh=00_AfCZtb67wqkjcOznRiiNN9bqcn7dtLmaHEtmPn1CAxQwdA&oe=64994043"><br>
+            <h2>PRICE: $19.99</h2>
+            
+            <div id="review">
+            <p id="des"><strong>Description: </strong> Google Pixel 7 – Mobile phone, 128 GB, 8 GB RAM, 6.3” OLED 90 Hz, Google Tensor G2 with 5G, 4355 mAh, OLED screen – 6.3 inches – FHD+</p><br>
+            <h3><strong>Reviews: </strong>
+            <span class="fa fa-star checked" id="star"></span>
+            <span class="fa fa-star checked" id="star"></span>
+            <span class="fa fa-star checked" id="star"></span>
+            <span class="fa fa-star" id="star"></span>
+            <span class="fa fa-star" id="star"></span></h3>
+            </div>
+          </div>
+          </section>
+
+      <section id="products">
+        <div class="product">
+          <div id="level">13-Inch MacBook Pro</div>
+          <img id="laptop" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT1AQav2mT4l0VTgpjd02-Au5EBUazEm-TuXUZmv4jEpcyFh8xo"><br>
+          <h2>PRICE: $10</h2>
+          
+          <div id="review">
+          <p id="des"><strong>Current Specs: </strong>13-inch size, Apple M2 chip with 8-core CPU and 10-core GPU- 8, 16, or 24 GB of unified memory, True Tone display and Touch Bar
+            , Up to 2 TB SSD storage
+            , Scissor-switch Magic Keyboard</p><br>
+          <h3><strong>Reviews: </strong>
+          <span class="fa fa-star checked" id="star"></span>
+          <span class="fa fa-star checked" id="star"></span>
+          <span class="fa fa-star checked" id="star"></span>
+          <span class="fa fa-star checked" id="star"></span>
+          <span class="fa fa-star" id="star"></span></h3>
+          </div>
+  
+        </div>
+    </section>
+
+    <section id="products">
+      <div class="product">
+        <div id="speaker">Phinistec Z6 Portable Music Player</div>
+        <img id="laptop" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1680532546-32gb-mp3-player-with-bluetooth-642ae43ddf5a1.jpg?crop=1xw:1xh;center,top&resize=980:*"><br>
+        <h2>PRICE: $40</h2>
+        
+        <div id="review">
+        <p id="des"><strong>Description: </strong>This MP3 player offers a sleek design, stellar audio performance, fantastic battery life (up to 90 hours between charges), expandable storage, and convenient controls, all at a fantastic under-$50 price point</p><br>
+        <h3><strong>Reviews: </strong>
+        <span class="fa fa-star checked" id="star"></span>
+        <span class="fa fa-star checked" id="star"></span>
+        <span class="fa fa-star checked" id="star"></span>
+        <span class="fa fa-star checked" id="star"></span>
+        <span class="fa fa-star checked" id="star"></span></h3>
+        </div>
+      </div>
+      </section>
+  </section>
+
+  <section id="Products">
+    <section>
+    <div class="product">
+      <div id="level">Apple Apple Watch Series 8</div>
+      <img id="watch"src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1665435735-apple-watch-series-8-1665435720.jpg?crop=1xw:1xh;center,top&resize=980:*"><br>
+      <h2>PRICE: $390</h2>
+      
+      <div id="review">
+      <p id="des"><strong>Description: </strong> The latest Apple Watch Series 8 has best-in-class health-, fitness-, and wellness-tracking capabilities, powered by accurate heart rate, blood oxygen, and temperature sensors. The timepiece is also the first Apple Watch to have crash detection — an all-new, lifesaving feature.</p><br>
+      <h3><strong>Reviews: </strong>
+      <span class="fa fa-star checked" id="star"></span>
+      <span class="fa fa-star checked" id="star"></span>
+      <span class="fa fa-star checked" id="star"></span>
+      <span class="fa fa-star checked" id="star"></span>
+      <span class="fa fa-star" id="star"></span></h3>
+      </div>
+    </div>
+    </section>
+
+<section id="products">
+  <div class="product">
+    <div id="level">Belkin MagSafe 2-in-1 Wireless Charger</div>
+    <img id="charger" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1634825957-belkin-magsafe-2-in-1-wireless-charger-1634825947.jpg?crop=1xw:1xh;center,top&resize=980:*"><br>
+    <h2>PRICE: $10</h2>
+    
+    <div id="review">
+    <p id="des"><strong>Current Specs: </strong>13-inch size, Apple M2 chip with 8-core CPU and 10-core GPU- 8, 16, or 24 GB of unified memory, True Tone display and Touch Bar
+      , Up to 2 TB SSD storage
+      , Scissor-switch Magic Keyboard</p><br>
+    <h3><strong>Reviews: </strong>
+    <span class="fa fa-star checked" id="star"></span>
+    <span class="fa fa-star checked" id="star"></span>
+    <span class="fa fa-star checked" id="star"></span>
+    <span class="fa fa-star checked" id="star"></span>
+    <span class="fa fa-star checked" id="star"></span></h3>
+    </div>
+
+  </div>
+</section>
+
+<section id="products">
+<div class="product">
+  <div id="speaker">Anker 737 Power Bank</div>
+  <img id="bank" src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1668524695-anker-battery-pack-1668524678.jpg?crop=1xw:1xh;center,top&resize=980:*"><br>
+  <h2>PRICE: $40</h2>
+  
+  <div id="review">
+  <p id="des"><strong>Description: </strong>Anker’s 737 Power Bank can charge your laptop via a fast USB-C connector with a maximum power output of 140 watts. It has a battery pack with ample capacity, and rather impressively, a color screen to help you keep tabs on the charging process. The accessory rocks a pair of USB-C ports and a USB-A connector, so you can simultaneously charge up to three devices.</p><br>
+  <h3><strong>Reviews: </strong>
+  <span class="fa fa-star checked" id="star"></span>
+  <span class="fa fa-star checked" id="star"></span>
+  <span class="fa fa-star checked" id="star"></span>
+  <span class="fa fa-star" id="star"></span>
+  <span class="fa fa-star" id="star"></span></h3>
+  </div>
+</div>
+</section>
+</section>
+  
+      
+    </body>
+</html>
